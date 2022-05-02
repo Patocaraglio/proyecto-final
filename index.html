@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="shortcut icon" href="imagenes/MP.ico" type="image/x-icon">
     <title>MP ELECTRICIDAD</title> 
 </head>
@@ -17,11 +18,21 @@
             <img src="imagenes/LOGO.png" alt="logo" width="200px"> 
         </a>
         <ul>
-            <li><a href="index.html">INICIO</a></li>
-            <li><a href="productos.html">PRODUCTOS</a></li>
-            <li><a href="servicios.html">SERVICIOS</a></li>
-            <li><a href="proyectos.html">PROYECTOS</a></li>
+            <div class="achicar">
+                <li><a href="index.html">INICIO</a></li>
+            </div>
+            <div class="achicar">
+                <li><a href="productos.html">PRODUCTOS</a></li>
+            </div>
+            <div class="achicar">  
+                <li><a href="servicios.html">SERVICIOS</a></li>
+            </div>
+            <div class="achicar">
+                <li><a href="proyectos.html">PROYECTOS</a></li>
+            </div>
+            <div class="achicar">    
             <li><a href="contacto.html">CONTACTO</a></li>
+            </div>
         </ul>
     </nav>
   </header>
@@ -32,7 +43,7 @@
             <P>La mejor calidad a su alcance</P> 
         </section>
         <section class="nosotros">
-            <div>
+            <div data-aos="fade-down">
                 <h2>NOSOTROS</h2>
                 <br>
                 <p>MP es una empresa de confianza, con años de experiencia en el ambito de las instalaciones y venta de insumos electricos, por lo que nuestra prioridad es brindarle al cliente servicios integrales y ofrecerle productos de calidad 
@@ -65,15 +76,19 @@
         </section>    
         <div>
             <a href="https://es-la.facebook.com/" target="_blank">
-                <img src="imagenes/facebook.png" alt="facebook" width="50 px">
+                <img class="agrandar" src="imagenes/facebook.png" alt="facebook" width="50 px">
             </a>
             <a href="https://www.instagram.com/?hl=es" target="_blank">
-                <img src="imagenes/instagram.png" alt="instagram" width="50px">
+                <img class="agrandar" src="imagenes/instagram.png" alt="instagram" width="50px">
             </a>
             <a href="https://www.whatsapp.com/?lang=es" target="_blank" >
-                <img src="imagenes/whatsapp.png" alt="whatsapp" width="50px">
+                <img class="agrandar" src="imagenes/whatsapp.png" alt="whatsapp" width="50px">
             </a>    
         </div>
     </footer> 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>

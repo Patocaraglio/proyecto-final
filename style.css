@@ -162,7 +162,7 @@
 }
 
 .header nav ul{
-    list-style: none;
+    display: flex;
     margin: 10px;
 }
 
@@ -175,6 +175,15 @@
     text-decoration: none;
     color: 	#FFD700;
     font-weight: bold;
+}
+
+/*transiciones-transformaciones*/
+.achicar:hover{
+    transform: scale(0.8) 
+}
+
+.agrandar:hover{
+    transform: scale(1.5);
 }
 
 /*MAIN*/
