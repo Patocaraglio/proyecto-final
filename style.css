@@ -13,15 +13,11 @@
 
 /*MEDIA-QUERIES-MOBILE*/
     /*index*/
-@media screen and (max-width: 450px)  {
+@media screen and (max-width: 450px) {
     nav{
         display: flex;
         flex-direction: column;
         text-align: center;
-    }
-
-    .navegacion{
-        width: 800px;
     }
 
     .header ul li{
@@ -30,7 +26,6 @@
     
     .presentacion{
         text-align: center;
-
     }
 
     .nosotros{
@@ -73,7 +68,6 @@
     .insumos{
         text-align: center;
     }
-
 
     /*servicios*/
     .personal{
